@@ -11,32 +11,52 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="col-9  col-sm-9 col-md-9 col-lg-10">
+                <div class="col-12  col-sm-9 col-md-9 col-lg-10">
                     <div class="d-flex headerBox">
                         <img src="resourses/logo.png" style="height:50px;width:50px" class="logo">
                         <h1 class="text-left p-2 header font-italic" style="color:rgb(0, 100, 0,0.8);">GUT-GULLIE</h1>
                     </div>
                 </div>
                 
-                <div class="col-3  col-sm-3 col-md-3 col-lg-2 ">
-                    <div class="d-flex p-3 headerBox">
-                        <div class=""><i class="fas fa-user-cog" aria-hidden="true"></i></div>
-                        <a href="admin.html" class="text-decoration-none" style="color: black;"><div class=""><p class="font-weight-bold text-black">ADMIN</p></div></a>
-                    </div>
-                </div>
+                
             </div>            
         </div>   
         <br/>     
         <div class="container-fluid   shadow" style="background-image: url(resourses/background.jpg);">
-            <div class="row headerBox  border " style="height:800px" >
+            <div class="row headerBox  border " style="height:1000px" >
                 <div class="col-6  offset-3 col-sm-6 offset-sm-3 col-md-4 offset-md-4 col-lg-4 bg-white border login border-light shadow">
                         <br/>
-                        <div class="col-12"><h3 class="text-center">Sign-In</h3></div>
+                        <div class="col-12"><h3 class="text-center">Register Now</h3></div>
                         <br/>
+                        
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="name" class="lead">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Full Name">
+                              </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="email" class="lead">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email-Id">
+                              </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="mobile" class="lead">Mobile-No</label>
+                                <input type="number" class="form-control" id="mobile" placeholder="Mobile-No">
+                              </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="age" class="lead">Age</label>
+                                <input type="number" class="form-control" id="age" placeholder="Enter your Age">
+                              </div>
+                        </div>
                         <div class="col-12">
                             <div class="form-group">
                                 <label for="username" class="lead">Username</label>
-                                <input type="text" class="form-control" id="name" placeholder="Username">
+                                <input type="text" class="form-control" id="username" placeholder="Username">
                               </div>
                         </div>
                         <div class="col-12 ">
@@ -48,14 +68,9 @@
                         <hr/>
                         <br/>
                         <div class="col-12 text-center">
-                        <button class=" btn btn-success  btn-lg" id="sign_in">Sign-In</button>
+                        <button class=" btn btn-success  btn-lg"  id="register">Register</button>
                     </div>
-                    <div class="col-12 text-center">
-                       <p class="lead"> If you not registered Sign-Up</p>
-                    </div>
-                    <div class="col-12 text-center">
-                        <a href="register.html"><p class=" btn btn-success  btn-lg" id="sign_up">Sign-Up</p></a>
-                    </div>
+                    
                     <br/>
                    
              </div>
