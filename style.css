@@ -2,20 +2,32 @@
 {
     border: 1px solid black;
 }
-
+.admin
+{
+    position: absolute;
+    right: 20px;
+}
 .logo
 {
     position:absolute;
-    top:10px
+    top:10px;
+    
+}
+
+.headerBox
+{
+    position:relative;
+    
 }
 .header
 {
     position:absolute;
-    left:-30px
+    left:50px;
+    
 }
 .login
 {
     position:absolute;
-    left:40px;
-    top:200px;
+    top:150px;
+    
 }
