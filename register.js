@@ -28,6 +28,7 @@ function registering()
         user_details[i].value=""
         i++
     }
+    alert("Registration Successful!!")
     
     //console.log(register_user)
     //Getting the user array from the local storage.Parse is used for converting the strings to objects
