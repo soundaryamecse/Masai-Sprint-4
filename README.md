@@ -5,15 +5,15 @@
 The objective of my project is to ctreate an interface from which the user can search fir the restaurent and ordered for the food
 
 <h2>Key Stack</h2>
-The Keystack I have applied here was HTML,Bootstrap,JavaScript
+The Keystack I have applied here was HTML,Bootstrap,JavaScript,JSON
 
 <h2>BackEnd</h2>
 I have Used my local Storage for creating my API.
 
-Syntax Used:
-localStorage.getItem
-localStorage.setItem
-localStorage.removeItem
+<ul>Syntax Used:</ul>
+<li>localStorage.getItem<li>
+<li>localStorage.setItem<li>
+<li>localStorage.removeItem<li>
 
 From the Local Storage i have applied JSON to parse the input from the localstorage and Stringify the data to store the content to the local storage
 
