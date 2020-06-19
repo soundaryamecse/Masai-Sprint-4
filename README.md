@@ -11,9 +11,9 @@ The Keystack I have applied here was HTML,Bootstrap,JavaScript,JSON
 I have Used my local Storage for creating my API.
 
 <ul>Syntax Used:</ul>
-<li>localStorage.getItem<li>
-<li>localStorage.setItem<li>
-<li>localStorage.removeItem<li>
+<li>localStorage.getItem</li>
+<li>localStorage.setItem</li>
+<li>localStorage.removeItem</li>
 
 From the Local Storage i have applied JSON to parse the input from the localstorage and Stringify the data to store the content to the local storage
 
